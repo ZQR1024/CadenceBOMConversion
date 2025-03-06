@@ -30,7 +30,6 @@ Cadence BOM转换工具是一个用于处理和转换Cadence生成的BOM（物�
 
 ### 安装步骤
 
-#### Windows系统
 
 1. 安装Python：
    - 从[Python官网](https://www.python.org/downloads/)下载并安装Python 3.6或更高版本
@@ -46,42 +45,6 @@ Cadence BOM转换工具是一个用于处理和转换Cadence生成的BOM（物�
    - 执行以下命令安装所需依赖：
      ```bash
      pip install pandas>=1.0.0 beautifulsoup4>=4.9.0 lxml>=4.5.0 openpyxl>=3.0.0
-     ```
-
-#### macOS系统
-
-1. 安装Python：
-   - 使用Homebrew：`brew install python`
-   - 或从[Python官网](https://www.python.org/downloads/)下载安装包
-   - 验证安装：打开终端，输入`python3 --version`确认安装成功
-
-2. 下载项目代码：
-   - 使用Git：`git clone [项目仓库URL]`
-   - 或直接从项目页面下载ZIP文件并解压
-
-3. 安装依赖项：
-   - 打开终端，进入项目目录
-   - 执行以下命令安装所需依赖：
-     ```bash
-     pip3 install pandas>=1.0.0 beautifulsoup4>=4.9.0 lxml>=4.5.0 openpyxl>=3.0.0
-     ```
-
-#### Linux系统
-
-1. 安装Python：
-   - Debian/Ubuntu：`sudo apt-get update && sudo apt-get install python3 python3-pip`
-   - CentOS/RHEL：`sudo yum install python3 python3-pip`
-   - 验证安装：终端输入`python3 --version`确认安装成功
-
-2. 下载项目代码：
-   - 使用Git：`git clone [项目仓库URL]`
-   - 或直接从项目页面下载ZIP文件并解压
-
-3. 安装依赖项：
-   - 打开终端，进入项目目录
-   - 执行以下命令安装所需依赖：
-     ```bash
-     pip3 install pandas>=1.0.0 beautifulsoup4>=4.9.0 lxml>=4.5.0 openpyxl>=3.0.0
      ```
 
 ### 可能遇到的问题及解决方案
