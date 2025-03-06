@@ -1,0 +1,2 @@
+# CadenceBOMConversion
+使用Trae AI编写的一个Cadence BOM转换工具，可以直接输入allegro生成的Component Report直接保存的html格式文件或另存为的excel文件，转换的文件为常规使用的Excel格式，包含VALUE值、封装、正反面位号和数量等信息。
